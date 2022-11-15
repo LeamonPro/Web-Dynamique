@@ -1,0 +1,19 @@
+
+  img {
+    transition:transform .7s ease-in-out;
+    height: 80px;
+    width: 80px;
+    padding: 8px;
+    
+    }
+  img:hover {
+
+    transform: rotate(25deg);
+    width: 100px;
+    height: 100px;
+  }
+table{
+    border: 2px;
+    float: left;
+    padding: 20px;
+}

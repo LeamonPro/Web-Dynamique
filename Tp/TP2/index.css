@@ -1,0 +1,46 @@
+nav{
+    background-color:rgb(238, 235, 235) ;
+}
+  nav > ul {
+    display: flex;
+  }
+   
+  nav ul {
+    list-style-type: none;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  tr,td{
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even){
+    background-color: rgb(216, 215, 215);
+  }
+  button{
+    float: right;
+  }
+  footer{
+    background-color: rgb(216, 215, 215);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  footer p{
+    float: right;
+  }
+  label { 
+    display: inline-block; 
+    width: 210px; text-align: left; 
+}
+input{
+    width: 30%;
+}
+input:valid{
+    background-color: green;
+}
+input:invalid{
+    background-color: pink;
+}

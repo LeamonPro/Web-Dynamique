@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Inscrivez-Vous</h2>
+        <form>
+            <div class="user-box">
+                <input type="text" name="" required="" id="user">
+                <label for="login">Login <span id="" style="color: red;">*</span></label></label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="pswd" required="" id="pswd" onkeyup="checkPassword(this.value)">
+                <label >MP <span id="pswd1" style="color: red;">*</span></label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="" required="" id="nom" onkeyup="checkName(this.value)">
+                <label for="">Nom <span id="nom1" style="color: red;" >*</span></label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="" required="" id="prenom" onkeyup="checkLastName(this.value)">
+                <label for="">Prenom <span id="prenom1" style="color: red;" >*</span></label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="" required="" id="adr" onkeyup="checkAdr(this.value)">
+                <label for="">Adresse <span id="adr1" style="color: red;">*</span></label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="" required="" id="mail" onkeyup="checkMail(this.value)">
+                <label for="">Email <span id="mail1" style="color: red;" >*</span></label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="" required="" id="msg" onkeyup="checkMessage(this.value)">
+                <label for="">Message <span id="msg1" style="color: red;" >*</span></label>
+            </div>
+            <a href="#" id="but1">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Valider
+            </a>
+            <a href="#" id="but2">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Annuler
+            </a>
+        </form>
+
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
